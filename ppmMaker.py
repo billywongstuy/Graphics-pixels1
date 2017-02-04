@@ -111,9 +111,9 @@ def makeFlag():
             red = not red
         for x in range(1,964):
             if x <= 385 and y <= 272:
-                a.write("0 0 255 ") #blue
+                a.write("0 82 165 ") #blue
             elif red:
-                a.write("255 0 0 ")
+                a.write("224 22 43 ")
             else: 
                 a.write("255 255 255 ") #white
 
@@ -140,9 +140,9 @@ def makeFlagWithStars():
             if x >= 16 and y >= 11 and x <= 369 and y <= 261 and checkStarsRange(centers,x,y,16): 
                 a.write("255 255 255 ") #white
             elif x <= 385 and y <= 272:
-                a.write("0 0 255 ") #blue
+                a.write("0 82 165 ") #blue
             elif red:
-                a.write("255 0 0 ")
+                a.write("224 22 43 ")
             else: 
                 a.write("255 255 255 ") #white
 
